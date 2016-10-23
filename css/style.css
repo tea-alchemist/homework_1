@@ -1,0 +1,125 @@
+/* font-family: "MyriadProRegular"; */
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts//MyriadProRegular.eot");
+  src: url("../fonts//MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MyriadProRegular.woff") format("woff"),
+  url("../fonts/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* font-family: "MyriadProBold"; */
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadProBold.eot");
+  src: url("../fonts/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MyriadProBold.woff") format("woff"),
+  url("../fonts/MyriadProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* font-family: "MyriadProItalic"; */
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadProItalic.eot");
+  src: url("../fonts/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MyriadProItalic.woff") format("woff"),
+  url("../fonts/MyriadProItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadProBoldItalic.eot");
+  src: url("../fonts/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MyriadProBoldItalic.woff") format("woff"),
+  url("../fonts/MyriadProBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "MyriadPro", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #1f1f1f;
+}
+
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+}
+
+.info {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #d7d8d8;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  vertical-align: bottom;
+  border: 1px solid #8f8f8f;
+  background-color: #403794;
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+  color: #4a494a;
+}
+
+h2 {
+  padding-top: 15px;
+  padding-bottom: 16px;
+  font-size: 18px;
+  padding-left: 2px;
+}
+
+ul {
+  padding-top: 6px;
+  padding-left: 37px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+span {
+  display: block;
+  padding-bottom: 10px;
+  padding-left: 37px;
+  font-size: 14px;
+}
+
+a {
+  font-size: 14px;
+  color: #0056d3;
+  padding-left: 37px;
+}
+
+.feedback p {
+  padding-left: 37px;
+  border-bottom: none;
+}
